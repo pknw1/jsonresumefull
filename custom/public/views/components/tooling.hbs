@@ -1,0 +1,20 @@
+{{#if resume.tooling.items.length}}
+<div class="container tooling-container">
+  {{> title value="Expertise"}}
+
+  {{#each resume.tooling.items}}
+    <section class="item">
+      {{#if category}}
+        <h4 class="bold">{{category}}</h4>
+      {{/if}}
+      {{#if entry.length}}
+        <ul class="minimal">
+          {{#each entry}}
+              <li>{{.}}</li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    </section>
+  {{/each}}
+</div>
+{{/if}}

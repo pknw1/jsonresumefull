@@ -1,0 +1,24 @@
+name: run
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Login to Docker Hub
+      uses: docker/login-action@v3
+      with:
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
+    - name: run
+      run: |
+        docker pull ${{ secrets.DOCKERHUB_USERNAME }}/jsonresumefull:latest 
+        docker run -it --rm -v ./resumes:/json -v ./resumes:/html ${{ secrets.DOCKERHUB_USERNAME }}/jsonresumefull:latest 
+    - uses: actions/upload-artifact@v4
+      with:
+        name: html
+        path: /html/*html

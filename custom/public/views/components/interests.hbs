@@ -1,0 +1,22 @@
+{{#if resume.interests.enabled }}
+{{#if resume.interests.items.length}}
+<div class="container interests-container">
+  {{> title value="Interests"}}
+
+  {{#each resume.interests.items}}
+    <section class="item">
+      {{#if name}}
+        <h4 class="bold">{{name}}</h4>
+      {{/if}}
+      {{#if keywords.length}}
+        <ul class="minimal">
+          {{#each keywords}}
+              <li>{{.}}</li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    </section>
+  {{/each}}
+</div>
+{{/if}}
+{{/if}}

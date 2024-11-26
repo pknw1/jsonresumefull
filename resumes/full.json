@@ -1,0 +1,380 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "language": "en"
+  },
+  "basics": {
+    "name": "Paul Kelleher",
+    "label": "Business Driven Technology Leadership, Innovation and Engineering",
+    "image": "https://www.pknw1.co.uk/assets/images/icon-128x77.png",
+    "email": "pk@pknw1.co.uk",
+    "phone": "+44 7884919508",
+    "website": "https://www.pknw1.co.uk",
+    "summary": "With over 30 years industry esperience, I look to engage clients  platform or workflow/process requirements through modern delivery methodologies, appropriate, risk-measured development, testing, assurance, on-demand scalable IaC infrastructure and measurable SDLC feedback",
+    "location": {
+      "countryCode": "GB"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "pknw1",
+        "url": "https://github.com/pknw1"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "pknw1",
+        "url": "https://www.linkedin.com/in/pknw1/"
+      },
+      {
+        "network": "Docker",
+        "username": "pknw1",
+        "url": "https://hub.docker.com/u/pknw1/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Contino",
+      "company": "Contino",
+      "historic": "", 
+      "recent": "true",
+      "location": "Remote",
+      "position": "Senior Engineering Consultant",
+      "url": "https://www.contino.io/",
+      "logo": "https://d1.awsstatic.com/events/aws-hosted-events/2019/APAC/Summit-2019/Sydney/Contino-logo-600x400.21d10d91bd25e2bccfb18fabfee6e272882d6256.png",
+      "startDate": "2022-02",
+      "endDate": "2023-12",
+      "about": "Well recognised as one of the leading global technology consultancies, Contino is a digital transformation engineering consultancy that has evolved second to none delivery of standards/best-practice engineering as part of transformation at each stage",
+      "summary": "Well recognised as one of the leading global technology consultancies, Contino is a digital transformation engineering consultancy that has evolved second to none delivery of standards/best-practice engineering as part of transformation at each stage",
+      "highlights": [
+        "Immediate Client Project Allocation to major UK Energy Provider",
+        "Internal and Client Culture/Process",
+        "Active in increasing engagement consultant allocation by 200%",
+        "Highly engaged with Internal Automation shift and Standards",
+        "5000+ end user solutions",
+        "Assigned GOD azure and google roles",
+        "Awarded Azure Practice Badge",
+        "Known as the “go-to” for “impossible” engineering challenges",
+        "Fostering and Mentored 1st principle engineering"
+      ],
+      "achievements": [
+        "Full IaC Azure CIS OS Build Image Factory",
+        "Integrated and auto-managed custom development post CIS custom builds",
+        "DORA Metrics collection, processing, dashboarding",
+        "Major templating of Terraform Modules",
+        "Major templating of GitHub Workflows",
+        "Multiple Azure Landing Zones plus multiple request ingestion services (WebUi, Slack)",
+        "EA Management",
+        "IaC EA Vending with massive optional expansions for custom LZ groups"
+      ]
+    },
+      {
+      "name": "",
+      "company": "Bots",
+      "histroic": "",
+      "recent": "true",
+      "location": "Remote",
+      "position": "Senior Engineering Consultant",
+      "url": "https://www.contino.io/",
+      "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQGJrfsrTaGZJw/company-logo_200_200/0/1649348369733?e=2147483647&v=beta&t=W9PYtcy4_MRktet3O4CjZcOGwk1Hql8p3xSFr9Ry_AE",
+      "startDate": "2022-02",
+      "endDate": "2023-12",
+      "about": "Well recognised as one of the leading global technology consultancies, Contino is a digital transformation engineering consultancy that has evolved second to none delivery of standards/best-practice engineering as part of transformation at each stage",
+      "summary": "Well recognised as one of the leading global technology consultancies, Contino is a digital transformation engineering consultancy that has evolved second to none delivery of standards/best-practice engineering as part of transformation at each stage",
+      "highlights": [
+            "Full autonomy over greenfield Azure and O365 integrated platform ",
+            "Process simplification and automation to improve and enhance dev to delivery",
+            ".Net into AKS using Github Actions",
+            "ISO 270001 Compliance"
+      ],
+      "achievements": [
+            "Compliance focused and policy driven dev+ environments",
+            "Complex multi-component architecture development integrated by dependencies into fire and forget dev ",
+            "Full IaC automated delivery"
+      ]
+    },{
+      "name": "",
+      "recent": "",
+      "historic" : "true",
+      "company": "Vanquis Bank",
+      "location": "Remote",
+      "position": "Senior Engineering Consultant",
+      "url": "https://www.contino.io/",
+      "logo": "https://refer-a-friend.uk/wp-content/uploads/2017/11/vanquis-bank.png",
+      "startDate": "2022-02",
+      "endDate": "2023-12",
+      "about": "Well recognised as one of the leading global technology consultancies, Contino is a digital transformation engineering consultancy that has evolved second to none delivery of standards/best-practice engineering as part of transformation at each stage",
+      "summary": "Transforming legacy VM & cloud infrastructure, managed by engineers who fought the change, servicing a business unsure of why cloud-first was championed by the previous CIO, what initially seemed like a challenging environment became a great opportunity to reach across the business and implement my personal style of leadership and accountability. Dedicated to optimisation this role understands the collaborative synergies within the business, melding some Development skills with Operation, security and monitoring process to deliver a highly automated, scalable and compliant product or service.  ",
+      "highlights": [
+      "Transforming legacy VM & cloud infrastructure, managed by engineers who fought the change, servicing a business unsure of why cloud-first was championed by the previous CIO, what initially seemed like a challenging environment became a great opportunity to reach across the business and implement my personal style of leadership and accountability.",
+      "Dedicated to optimisation this role understands the collaborative synergies within the business, melding some Development skills with Operation, security and monitoring process to deliver a highly automated, scalable and compliant product or service.  "
+      ],
+      "achievements": [
+      ]
+    },
+    {
+      "name": "",
+      "company": "Smartfocus",
+      "recent": "",
+      "historic" : "true",
+      "location": "",
+      "position": "Senior App Support Engineer / Head of Operations",
+      "url": "",
+      "logo": "https://www.appvizer.fr/media/application/1346/logo/logo-smartfocus.png",
+      "startDate": "2015-07",
+      "endDate": "2017-08",
+      "about": "",
+      "summary": "",
+      "highlights": [
+        "Lead the combination and cross skill of disparate support teams in US, UK, France and India to allow follow the sun support for all products, reducing cost and improving work-life balance for support staff and lifting moral",
+        "Centralised logging and analytics data to allow us to secure, simplify support, align focus and report cost vs usage",
+        "Abstracted cross-product session handling and inter-product calls up to F5 to allow standardisation of service calls", 
+        "Provided POC containerised instance of one of the highest volume calls and using transactional messages via message queues to show that we could migrate from direct calls to a more reliable, flexible model (AWS, Kafka, Docker)",  
+        "Planned and lead cross-functional teams to incrementally pull build elements into automated pipeline to function test and only report on error with the aim of full platform automated delivery"
+      ],
+      "achievements": [
+
+      ]
+    },
+       {
+      "name": "",
+      "company": "Fico",
+      "recent": "",
+      "historic" : "true",
+      "location": "",
+      "position": "",
+      "url": "",
+      "logo": "",
+      "startDate": "2022-02",
+      "endDate": "2023-12",
+      "about": "",
+      "summary": "",
+      "highlights": [
+      ],
+      "achievements": [
+
+      ]
+    },
+       {
+      "name": "",
+      "company": "Sony",
+      "recent": "",
+      "historic" : "true",
+      "location": "",
+      "position": "",
+      "url": "",
+      "logo": "",
+      "startDate": "2022-02",
+      "endDate": "2023-12",
+      "about": "",
+      "summary": "",
+      "highlights": [
+      ],
+      "achievements": [
+
+      ]
+    },
+       {
+      "name": "",
+      "company": "Mailonline",
+      "recent": "",
+      "historic" : "true",
+      "location": "",
+      "position": "",
+      "url": "",
+      "logo": "",
+      "startDate": "2022-02",
+      "endDate": "2023-12",
+      "about": "",
+      "summary": "",
+      "highlights": [
+      ],
+      "achievements": [
+
+      ]
+    },
+       {
+      "name": "Citi",
+      "company": "Citi",
+      "recent": "",
+      "historic" : "true",
+      "location": "",
+      "position": "",
+      "url": "",
+      "logo": "",
+      "startDate": "2022-02",
+      "endDate": "2023-12",
+      "about": "",
+      "summary": "",
+      "highlights": [
+      ],
+      "achievements": [
+
+      ]
+    },
+       {
+      "name": "",
+      "company": "Santader",
+      "recent": "",
+      "historic" : "true",
+      "location": "",
+      "position": "Solaris Application Support",
+      "url": "",
+      "logo": "https://specto.com.br/wp-content/uploads/2018/02/logo-specto-case-santander-01.png",
+      "startDate": "2022-02",
+      "endDate": "2023-12",
+      "about": "",
+      "summary": "As part of the well-established web applications team, I was responsible for individual projects through from development to implementation while maintaining high availability and standards for many customer facing, revenue generating web application",
+      "highlights": [
+      ],
+      "achievements": [
+
+      ]
+    },
+       {
+      "name": "",
+      "company": "Rubus",
+      "recent": "",
+      "historic" : "true",
+      "location": "London",
+      "position": "Infrastructure Consultant",
+      "url": "https://web.archive.org/web/20030807103923/http://www.rubus.com/public",
+      "logo": "https://static.pknw1.co.uk/images/rubus-logo.png",
+      "startDate": "2022-02",
+      "endDate": "2023-12",
+      "about": "",
+      "summary": "Joining Rubus in July 2000 from IBM, I worked on multiple Rubus engagements encompassing infrastructure definition, implementation, administration and support. This role was key in setting Paul up as a highly independent thinker working as part of a close knit development and support team in a high pressure environment for a wide range of clients, gaining experience in a multitude of enterprise technologies. ",
+      "highlights": [
+        "Built infrastructure platforms for 2 major client projects using Solaris and self-hosted environments",
+        "Formalised methods of knowledge sharing and delivering complex processes in unambiguous formats that allowed users with basic knowledge to support or re-build services once project delivered",
+        "Compiled post-delivery support process and ITIL compliant support and escalation models"
+      ],
+      "achievements": [
+
+      ]
+    },
+       {
+      "name": "",
+      "company": "IBM",
+      "recent": "",
+      "historic" : "true",
+      "location": "Warwick",
+      "position": "IT & Systems Specialist",
+      "url": "https://www.ibm.com/uk-en",
+      "logo": "https://www.infor.it/wp-content/uploads/2016/11/logo-ibm.png",
+      "startDate": "2022-02",
+      "endDate": "2023-12",
+      "about": "",
+      "summary": "",
+      "highlights": [
+      ],
+      "achievements": [
+
+      ]
+    },
+       {
+      "name": "",
+      "company": "IBM",
+      "recent": "",
+      "historic" : "true",
+      "location": "Warwick",
+      "position": "Industrial Trainee",
+      "url": "https://www.ibm.com/uk-en",
+      "logo": "https://www.infor.it/wp-content/uploads/2016/11/logo-ibm.png",
+      "startDate": "2022-02",
+      "endDate": "2023-12",
+      "about": "",
+      "summary": "",
+      "highlights": [
+      ],
+      "achievements": [
+
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UWE Bristol",
+      "url": "https://www.uwe.ac.uk",
+      "area": "Computing for Real Time Systems",
+      "studyType": "BSc (Hons)"
+    }
+  ],
+  "skills": {
+	  "enabled": "",
+	  "items": [
+    {
+      "name": "freeCodeCamp",
+      "level": "https://www.freecodecamp.org/",
+      "keywords": ["keyworrd","other"]
+    },
+    {
+      "name": "freeCodeCamp",
+      "level": "https://www.freecodecamp.org/",
+      "keywords": ["keyworrd"]
+    },
+    {
+      "name": "freeCodeCamp",
+      "level": "https://www.freecodecamp.org/",
+      "keywords": ["keyworrd"]
+    }
+  ]
+  },
+  "interests": { 
+  	"enabled" : "",
+	"items" : [
+    	{
+      	"name": "Interest 1",
+      	"keywords": ["test","other"]
+    	},
+	{
+        "name": "Interest 2",
+        "keywords": ["test","other"]
+        }
+
+  ]
+  },
+  "tooling": {
+	  "summary": "lalalal",
+	  "items" : [
+	  {
+            "category": "Technology",
+	    "entry": ["*nix","Azure","Docker","IaC","K8S/AKS","Agile","DevOps","IaaS","Networking","Automation","SQL","Storage","XL Deploy","Green Bone","HA Cache & CDN"]
+	  },
+          {
+            "category": "Consulting",
+            "entry": ["Requirements & Analysis","Cost/Benefit Analysis","Technology Selection","Solution Design","Solution Modelling","First Principal Iteration","SDLC/Automation","Build Automation","Test Automation","Metrics & Delivery Data","Support Models","Iterative Improvement"]
+          },
+          {
+            "category": "Leadership",
+            "entry": ["Technology Innovator","Educator","Natural Communicator","Analytical","Problem Solver","Business Focused","Cross-Discipline"]
+          }
+  ]
+  },
+  "certificates": [
+    {
+      "name": "edX Verified Certificate for Introduction to Web Accessibility",
+      "date": "2023-04-17",
+      "issuer": "edX"
+    }
+  ],
+  "publications": [
+    {
+      "name": "What are Bookmarklets? How to Use JavaScript to Make a Bookmarklet in Chromium and Firefox",
+      "publisher": "freeCodeCamp",
+      "releaseDate": "2021-06-17",
+      "url": "https://www.freecodecamp.org/news/what-are-bookmarklets/"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "French",
+      "fluency": "Elementary"
+    }
+  ]
+}
+
