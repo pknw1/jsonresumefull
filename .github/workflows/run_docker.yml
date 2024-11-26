@@ -1,11 +1,14 @@
-name: run
+name: Run Container
 
 on:
   workflow_dispatch:
-
+  pull_request:
+    types: [opened, reopened]
+    paths:
+      - 'resumes/**'
 
 jobs:
-  greet:
+  Run:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -18,7 +21,4 @@ jobs:
       run: |
         docker pull ${{ secrets.DOCKERHUB_USERNAME }}/jsonresumefull:latest 
         docker run --rm -v ./resumes:/json -v ./resumes:/html ${{ secrets.DOCKERHUB_USERNAME }}/jsonresumefull:latest 
-    - uses: actions/upload-artifact@v4
-      with:
-        name: html
-        path: ./resumes/*html
+
