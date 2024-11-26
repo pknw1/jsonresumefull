@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -it --rm -v ./resumes:/json -v /media/www/static.pknw1.co.uk/cv:/html pknw1/jsonresume-full 
+docker run -it --rm -v ./resumes:/json -v /media/www/static.pknw1.co.uk/cv:/html -v ./custom/public:/jsonresume/public pknw1/jsonresume-full:latest

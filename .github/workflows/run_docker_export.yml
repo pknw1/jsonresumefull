@@ -1,4 +1,4 @@
-name: Run Container & Export
+name: Run Container & Store HTML
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ on:
       - 'resumes/**'
 
 jobs:
-  Run:
+  export:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -18,7 +18,7 @@ jobs:
       with:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
-    - name: run
+    - name: docker run export
       run: |
         docker pull ${{ secrets.DOCKERHUB_USERNAME }}/jsonresumefull:latest 
         docker run --rm -v ./resumes:/json -v ./resumes:/html ${{ secrets.DOCKERHUB_USERNAME }}/jsonresumefull:latest 

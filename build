@@ -1,0 +1,4 @@
+#!/bin/bash
+TIMESTAMP=$(date +%s)
+docker build -t pknw1/jsonresumefull:${TIMESTAMP} -f docker/Dockerfile .
+docker tag pknw1/jsonresumefull:${TIMESTAMP} pknw1/jsonresumefull:dev
