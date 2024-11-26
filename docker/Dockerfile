@@ -6,10 +6,10 @@ WORKDIR /jsonresume
 RUN npm install -g resume-cli gulp-cli
 RUN yarn install
 RUN npx gulp
-ADD entrypoint.sh /entrypoint.sh
+ADD docker/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 ADD custom/public /jsonresume/public
 ADD custom/style.css /jsonresume/style.css
 ENTRYPOINT ["/entrypoint.sh"]
-CMD ["resume", "export", "--theme", ".", "--resume", "/json/full.json", "/html/full.html"]
+CMD ["resume", "export", "--theme", ".", "--resume", "/json/resume.json", "/html/resume.html"]
 

@@ -2,12 +2,6 @@
 <div class="container about-container">
   {{> title value="About"}}
 
-  {{#if location}}
-    {{#location}}
-    {{> info-tag text=(formatAddress address city region postalCode countryCode) icon="fa-map-marker"}}
-    {{/location}}
-  {{/if}}
-
   {{#if email}}
     {{> info-tag text=this.email icon="fa-envelope-o"}}
   {{/if}}

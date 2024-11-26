@@ -1,4 +1,4 @@
-name: Run Container
+name: Validate Container & JSON
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
       - 'resumes/**'
 
 jobs:
-  Run:
+  validate:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -17,7 +17,7 @@ jobs:
       with:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
-    - name: run
+    - name: docker run
       run: |
         docker pull ${{ secrets.DOCKERHUB_USERNAME }}/jsonresumefull:latest 
         docker run --rm -v ./resumes:/json -v ./resumes:/html ${{ secrets.DOCKERHUB_USERNAME }}/jsonresumefull:latest 
