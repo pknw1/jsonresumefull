@@ -17,7 +17,7 @@ jobs:
     - name: run
       run: |
         docker pull ${{ secrets.DOCKERHUB_USERNAME }}/jsonresumefull:latest 
-        docker run -it --rm -v ./resumes:/json -v ./resumes:/html ${{ secrets.DOCKERHUB_USERNAME }}/jsonresumefull:latest 
+        docker run --rm -v ./resumes:/json -v ./resumes:/html ${{ secrets.DOCKERHUB_USERNAME }}/jsonresumefull:latest 
     - uses: actions/upload-artifact@v4
       with:
         name: html
