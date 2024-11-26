@@ -7,9 +7,9 @@ RUN npm install -g resume-cli gulp-cli
 RUN yarn install
 RUN npx gulp
 ADD entrypoint.sh /entrypoint.sh
-#RUN chmod +x /entrypoint.sh
-#ENTRYPOINT ["/entrypoint.sh"]
+RUN chmod +x /entrypoint.sh
 ADD custom/public /jsonresume/public
 ADD custom/style.css /jsonresume/style.css
+ENTRYPOINT ["/entrypoint.sh"]
 CMD ["resume", "export", "--theme", ".", "--resume", "/json/full.json", "/html/full.html"]
 
