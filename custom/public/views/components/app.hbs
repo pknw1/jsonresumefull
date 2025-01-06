@@ -1,0 +1,23 @@
+{{#resume.app}}
+<div class="container about-container">
+  {{> title value="App Details"}}
+
+   {{#if resume.app.category}}
+        <ul class="minimal">
+          {{#each entry}}
+              <li>{{.}}</li>
+          {{/each}}
+        </ul>
+      {{/if}}
+
+  {{#if website}}
+    {{> info-tag text=this.website icon="fa-desktop" url=this.website}}
+  {{/if}}
+
+  {{#if profiles}}
+    {{#each profiles}}
+        {{> social}}
+    {{/each}}
+  {{/if}}
+</section>
+{{/resume.app}}

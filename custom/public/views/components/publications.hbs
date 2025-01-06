@@ -1,14 +1,10 @@
 {{#if resume.publications.length}}
 <div class="container publications-container">
-  {{> title value="Publications"}}
+  {{> title value="Links"}}
 
   {{#each resume.publications}}
   <section class="item">
-    {{> section-header name=this.name}}
-
-    {{#if publisher}}
-      <h5 class="awarder">{{publisher}}</h5>
-    {{/if}}
+    <a href="{{url}}" target="_new">{{name}}</a>
 
     {{#if summary}}
       <p class="summary">{{summary}}</p>

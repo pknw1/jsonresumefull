@@ -3,14 +3,20 @@
   "meta": {
     "language": "en"
   },
+  "app": {
+    "name": "name",
+    "category": [ 
+	    { 
+	      "category" :"one"
+	    } ]
+    
+  },
   "basics": {
-    "name": "Paul Kelleher Full",
-    "label": "Business Driven Technology Leadership, Innovation and Engineering",
+    "name": "App Name",
+    "label": "App Tag",
     "image": "https://www.pknw1.co.uk/assets/images/icon-128x77.png",
-    "email": "pk@pknw1.co.uk",
-    "phone": "+44 7884919508",
     "website": "https://www.pknw1.co.uk",
-    "summary": "With over 30 years industry esperience, I look to engage clients  platform or workflow/process requirements through modern delivery methodologies, appropriate, risk-measured development, testing, assurance, on-demand scalable IaC infrastructure and measurable SDLC feedback",
+    "summary": "Summary",
     "location": {
       "countryCode": "GB"
     },
@@ -19,16 +25,6 @@
         "network": "GitHub",
         "username": "pknw1",
         "url": "https://github.com/pknw1"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "pknw1",
-        "url": "https://www.linkedin.com/in/pknw1/"
-      },
-      {
-        "network": "Docker",
-        "username": "pknw1",
-        "url": "https://hub.docker.com/u/pknw1/"
       }
     ]
   },
@@ -66,31 +62,6 @@
         "Multiple Azure Landing Zones plus multiple request ingestion services (WebUi, Slack)",
         "EA Management",
         "IaC EA Vending with massive optional expansions for custom LZ groups"
-      ]
-    },
-      {
-      "name": "",
-      "company": "Bots",
-      "histroic": "",
-      "recent": "true",
-      "location": "Remote",
-      "position": "Senior Engineering Consultant",
-      "url": "https://www.contino.io/",
-      "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQGJrfsrTaGZJw/company-logo_200_200/0/1649348369733?e=2147483647&v=beta&t=W9PYtcy4_MRktet3O4CjZcOGwk1Hql8p3xSFr9Ry_AE",
-      "startDate": "2022-02",
-      "endDate": "2023-12",
-      "about": "Well recognised as one of the leading global technology consultancies, Contino is a digital transformation engineering consultancy that has evolved second to none delivery of standards/best-practice engineering as part of transformation at each stage",
-      "summary": "Well recognised as one of the leading global technology consultancies, Contino is a digital transformation engineering consultancy that has evolved second to none delivery of standards/best-practice engineering as part of transformation at each stage",
-      "highlights": [
-            "Full autonomy over greenfield Azure and O365 integrated platform ",
-            "Process simplification and automation to improve and enhance dev to delivery",
-            ".Net into AKS using Github Actions",
-            "ISO 270001 Compliance"
-      ],
-      "achievements": [
-            "Compliance focused and policy driven dev+ environments",
-            "Complex multi-component architecture development integrated by dependencies into fire and forget dev ",
-            "Full IaC automated delivery"
       ]
     },{
       "name": "",
@@ -360,9 +331,8 @@
   ],
   "publications": [
     {
-      "name": "What are Bookmarklets? How to Use JavaScript to Make a Bookmarklet in Chromium and Firefox",
-      "publisher": "freeCodeCamp",
-      "releaseDate": "2021-06-17",
+      "name": "Name",
+      "summary": "freeCodeCamp",
       "url": "https://www.freecodecamp.org/news/what-are-bookmarklets/"
     }
   ],
